@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE80AFDC15DA072700F66148 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE80AFDB15DA072700F66148 /* UIKit.framework */; };
+		FE80AFDE15DA072700F66148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE80AFDD15DA072700F66148 /* Foundation.framework */; };
+		FE80AFE015DA072700F66148 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE80AFDF15DA072700F66148 /* CoreGraphics.framework */; };
+		FE80AFE615DA072700F66148 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE80AFE415DA072700F66148 /* InfoPlist.strings */; };
+		FE80AFE815DA072700F66148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE80AFE715DA072700F66148 /* main.m */; };
+		FE80AFEC15DA072700F66148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE80AFEB15DA072700F66148 /* AppDelegate.m */; };
+		FE80AFEF15DA072700F66148 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE80AFEE15DA072700F66148 /* ViewController.m */; };
+		FE80AFF215DA072700F66148 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE80AFF015DA072700F66148 /* ViewController_iPhone.xib */; };
+		FE80AFF515DA072700F66148 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE80AFF315DA072700F66148 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE80AFD715DA072700F66148 /* Torchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Torchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE80AFDB15DA072700F66148 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE80AFDD15DA072700F66148 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE80AFDF15DA072700F66148 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE80AFE315DA072700F66148 /* Torchy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Torchy-Info.plist"; sourceTree = "<group>"; };
+		FE80AFE515DA072700F66148 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE80AFE715DA072700F66148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE80AFE915DA072700F66148 /* Torchy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Torchy-Prefix.pch"; sourceTree = "<group>"; };
+		FE80AFEA15DA072700F66148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE80AFEB15DA072700F66148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE80AFED15DA072700F66148 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE80AFEE15DA072700F66148 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE80AFF115DA072700F66148 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		FE80AFF415DA072700F66148 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE80AFD415DA072700F66148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE80AFDC15DA072700F66148 /* UIKit.framework in Frameworks */,
+				FE80AFDE15DA072700F66148 /* Foundation.framework in Frameworks */,
+				FE80AFE015DA072700F66148 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE80AFCC15DA072700F66148 = {
+			isa = PBXGroup;
+			children = (
+				FE80AFE115DA072700F66148 /* Torchy */,
+				FE80AFDA15DA072700F66148 /* Frameworks */,
+				FE80AFD815DA072700F66148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE80AFD815DA072700F66148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE80AFD715DA072700F66148 /* Torchy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE80AFDA15DA072700F66148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE80AFDB15DA072700F66148 /* UIKit.framework */,
+				FE80AFDD15DA072700F66148 /* Foundation.framework */,
+				FE80AFDF15DA072700F66148 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE80AFE115DA072700F66148 /* Torchy */ = {
+			isa = PBXGroup;
+			children = (
+				FE80AFEA15DA072700F66148 /* AppDelegate.h */,
+				FE80AFEB15DA072700F66148 /* AppDelegate.m */,
+				FE80AFED15DA072700F66148 /* ViewController.h */,
+				FE80AFEE15DA072700F66148 /* ViewController.m */,
+				FE80AFF015DA072700F66148 /* ViewController_iPhone.xib */,
+				FE80AFF315DA072700F66148 /* ViewController_iPad.xib */,
+				FE80AFE215DA072700F66148 /* Supporting Files */,
+			);
+			path = Torchy;
+			sourceTree = "<group>";
+		};
+		FE80AFE215DA072700F66148 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE80AFE315DA072700F66148 /* Torchy-Info.plist */,
+				FE80AFE415DA072700F66148 /* InfoPlist.strings */,
+				FE80AFE715DA072700F66148 /* main.m */,
+				FE80AFE915DA072700F66148 /* Torchy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE80AFD615DA072700F66148 /* Torchy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE80AFF815DA072700F66148 /* Build configuration list for PBXNativeTarget "Torchy" */;
+			buildPhases = (
+				FE80AFD315DA072700F66148 /* Sources */,
+				FE80AFD415DA072700F66148 /* Frameworks */,
+				FE80AFD515DA072700F66148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Torchy;
+			productName = Torchy;
+			productReference = FE80AFD715DA072700F66148 /* Torchy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE80AFCE15DA072700F66148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Mario C. Delgado Jr.";
+			};
+			buildConfigurationList = FE80AFD115DA072700F66148 /* Build configuration list for PBXProject "Torchy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE80AFCC15DA072700F66148;
+			productRefGroup = FE80AFD815DA072700F66148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE80AFD615DA072700F66148 /* Torchy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE80AFD515DA072700F66148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE80AFE615DA072700F66148 /* InfoPlist.strings in Resources */,
+				FE80AFF215DA072700F66148 /* ViewController_iPhone.xib in Resources */,
+				FE80AFF515DA072700F66148 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE80AFD315DA072700F66148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE80AFE815DA072700F66148 /* main.m in Sources */,
+				FE80AFEC15DA072700F66148 /* AppDelegate.m in Sources */,
+				FE80AFEF15DA072700F66148 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE80AFE415DA072700F66148 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE80AFE515DA072700F66148 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE80AFF015DA072700F66148 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE80AFF115DA072700F66148 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FE80AFF315DA072700F66148 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE80AFF415DA072700F66148 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE80AFF615DA072700F66148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE80AFF715DA072700F66148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE80AFF915DA072700F66148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Torchy/Torchy-Prefix.pch";
+				INFOPLIST_FILE = "Torchy/Torchy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE80AFFA15DA072700F66148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Torchy/Torchy-Prefix.pch";
+				INFOPLIST_FILE = "Torchy/Torchy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE80AFD115DA072700F66148 /* Build configuration list for PBXProject "Torchy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE80AFF615DA072700F66148 /* Debug */,
+				FE80AFF715DA072700F66148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE80AFF815DA072700F66148 /* Build configuration list for PBXNativeTarget "Torchy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE80AFF915DA072700F66148 /* Debug */,
+				FE80AFFA15DA072700F66148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE80AFCE15DA072700F66148 /* Project object */;
+}
