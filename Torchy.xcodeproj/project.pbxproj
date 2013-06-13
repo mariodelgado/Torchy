@@ -16,10 +16,17 @@
 		FE80AFEF15DA072700F66148 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE80AFEE15DA072700F66148 /* ViewController.m */; };
 		FE80AFF215DA072700F66148 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE80AFF015DA072700F66148 /* ViewController_iPhone.xib */; };
 		FE80AFF515DA072700F66148 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE80AFF315DA072700F66148 /* ViewController_iPad.xib */; };
+		FE80AFFC15DA073B00F66148 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE80AFFB15DA073B00F66148 /* AVFoundation.framework */; };
+		FE80AFFF15DAC24500F66148 /* on_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE80AFFD15DAC24500F66148 /* on_off@2x.png */; };
+		FE80B00215DAC33B00F66148 /* on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE80B00115DAC33B00F66148 /* on@2x.png */; };
+		FED9009E15DAD83F008A1EA9 /* torchyappstore.png in Resources */ = {isa = PBXBuildFile; fileRef = FED9009C15DAD83F008A1EA9 /* torchyappstore.png */; };
+		FED900A015DAD84D008A1EA9 /* torchyicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED9009F15DAD84D008A1EA9 /* torchyicon@2x.png */; };
+		FED900A215DAD9B5008A1EA9 /* torchyicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED900A115DAD9B5008A1EA9 /* torchyicon@2x.png */; };
+		FEF8152315DAE37B0025FAEA /* torchyicon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEF8152215DAE37B0025FAEA /* torchyicon@1x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE80AFD715DA072700F66148 /* Torchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Torchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE80AFD715DA072700F66148 /* minimalistlamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minimalistlamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE80AFDB15DA072700F66148 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FE80AFDD15DA072700F66148 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FE80AFDF15DA072700F66148 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -33,6 +40,13 @@
 		FE80AFEE15DA072700F66148 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FE80AFF115DA072700F66148 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		FE80AFF415DA072700F66148 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		FE80AFFB15DA073B00F66148 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FE80AFFD15DAC24500F66148 /* on_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "on_off@2x.png"; sourceTree = "<group>"; };
+		FE80B00115DAC33B00F66148 /* on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "on@2x.png"; sourceTree = "<group>"; };
+		FED9009C15DAD83F008A1EA9 /* torchyappstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = torchyappstore.png; sourceTree = "<group>"; };
+		FED9009F15DAD84D008A1EA9 /* torchyicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torchyicon@2x.png"; sourceTree = "<group>"; };
+		FED900A115DAD9B5008A1EA9 /* torchyicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torchyicon@2x.png"; sourceTree = "<group>"; };
+		FEF8152215DAE37B0025FAEA /* torchyicon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torchyicon@1x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE80AFFC15DA073B00F66148 /* AVFoundation.framework in Frameworks */,
 				FE80AFDC15DA072700F66148 /* UIKit.framework in Frameworks */,
 				FE80AFDE15DA072700F66148 /* Foundation.framework in Frameworks */,
 				FE80AFE015DA072700F66148 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +67,8 @@
 		FE80AFCC15DA072700F66148 = {
 			isa = PBXGroup;
 			children = (
+				FEF8152215DAE37B0025FAEA /* torchyicon@1x.png */,
+				FED9009F15DAD84D008A1EA9 /* torchyicon@2x.png */,
 				FE80AFE115DA072700F66148 /* Torchy */,
 				FE80AFDA15DA072700F66148 /* Frameworks */,
 				FE80AFD815DA072700F66148 /* Products */,
@@ -61,7 +78,7 @@
 		FE80AFD815DA072700F66148 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE80AFD715DA072700F66148 /* Torchy.app */,
+				FE80AFD715DA072700F66148 /* minimalistlamp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +86,7 @@
 		FE80AFDA15DA072700F66148 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FE80AFFB15DA073B00F66148 /* AVFoundation.framework */,
 				FE80AFDB15DA072700F66148 /* UIKit.framework */,
 				FE80AFDD15DA072700F66148 /* Foundation.framework */,
 				FE80AFDF15DA072700F66148 /* CoreGraphics.framework */,
@@ -93,6 +111,10 @@
 		FE80AFE215DA072700F66148 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FED9009C15DAD83F008A1EA9 /* torchyappstore.png */,
+				FED900A115DAD9B5008A1EA9 /* torchyicon@2x.png */,
+				FE80AFFD15DAC24500F66148 /* on_off@2x.png */,
+				FE80B00115DAC33B00F66148 /* on@2x.png */,
 				FE80AFE315DA072700F66148 /* Torchy-Info.plist */,
 				FE80AFE415DA072700F66148 /* InfoPlist.strings */,
 				FE80AFE715DA072700F66148 /* main.m */,
@@ -104,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE80AFD615DA072700F66148 /* Torchy */ = {
+		FE80AFD615DA072700F66148 /* Lamp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE80AFF815DA072700F66148 /* Build configuration list for PBXNativeTarget "Torchy" */;
+			buildConfigurationList = FE80AFF815DA072700F66148 /* Build configuration list for PBXNativeTarget "Lamp" */;
 			buildPhases = (
 				FE80AFD315DA072700F66148 /* Sources */,
 				FE80AFD415DA072700F66148 /* Frameworks */,
@@ -116,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = Torchy;
+			name = Lamp;
 			productName = Torchy;
-			productReference = FE80AFD715DA072700F66148 /* Torchy.app */;
+			productReference = FE80AFD715DA072700F66148 /* minimalistlamp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE80AFD615DA072700F66148 /* Torchy */,
+				FE80AFD615DA072700F66148 /* Lamp */,
 			);
 		};
 /* End PBXProject section */
@@ -155,6 +177,12 @@
 				FE80AFE615DA072700F66148 /* InfoPlist.strings in Resources */,
 				FE80AFF215DA072700F66148 /* ViewController_iPhone.xib in Resources */,
 				FE80AFF515DA072700F66148 /* ViewController_iPad.xib in Resources */,
+				FE80AFFF15DAC24500F66148 /* on_off@2x.png in Resources */,
+				FE80B00215DAC33B00F66148 /* on@2x.png in Resources */,
+				FED9009E15DAD83F008A1EA9 /* torchyappstore.png in Resources */,
+				FED900A015DAD84D008A1EA9 /* torchyicon@2x.png in Resources */,
+				FED900A215DAD9B5008A1EA9 /* torchyicon@2x.png in Resources */,
+				FEF8152315DAE37B0025FAEA /* torchyicon@1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +283,13 @@
 		FE80AFF915DA072700F66148 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Torchy/Torchy-Prefix.pch";
 				INFOPLIST_FILE = "Torchy/Torchy-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = minimalistlamp;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -266,10 +297,15 @@
 		FE80AFFA15DA072700F66148 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mario Delgado";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Torchy/Torchy-Prefix.pch";
 				INFOPLIST_FILE = "Torchy/Torchy-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = minimalistlamp;
+				PROVISIONING_PROFILE = "E13456DD-E4B2-4C94-B66C-FA10E5EDEEC8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -286,13 +322,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE80AFF815DA072700F66148 /* Build configuration list for PBXNativeTarget "Torchy" */ = {
+		FE80AFF815DA072700F66148 /* Build configuration list for PBXNativeTarget "Lamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE80AFF915DA072700F66148 /* Debug */,
 				FE80AFFA15DA072700F66148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
